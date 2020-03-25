@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329398842060",
+    "firebase_url": "https://brew-app-45d2c.firebaseio.com",
+    "project_id": "brew-app-45d2c",
+    "storage_bucket": "brew-app-45d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329398842060:android:dde93dc01cf6a0bf438869",
+        "android_client_info": {
+          "package_name": "com.monayalexis.clubcervecero2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329398842060-qocgjmvb0f7j8334la7658mm1dpf0cu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monayalexis.clubcervecero2",
+            "certificate_hash": "9d047140b17db7a9534ea8d779dd78d878a78849"
+          }
+        },
+        {
+          "client_id": "329398842060-4j9v1ijuk79mmk7h7j0odo8j9aen89of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgbJFM4C-8qR7WQaXRnb9QyOpntBhxvHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329398842060-4j9v1ijuk79mmk7h7j0odo8j9aen89of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

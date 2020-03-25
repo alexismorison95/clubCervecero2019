@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home"
+        title="@string/tab_home"
+        barColorWhenSelected="@color/colorTextWhite" />
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/ic_search"
+        title="@string/tab_search"
+        barColorWhenSelected="@color/colorTextWhite"/>
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_person"
+        title="@string/tab_profile"
+        barColorWhenSelected="@color/colorTextWhite"/>
+</tabs>

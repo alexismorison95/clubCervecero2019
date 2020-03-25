@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clubcervecero2</string>
+    <string name="app_user">Usuario</string>
+    <string name="app_pass">Contraseña</string>
+    <string name="app_login">Iniciar sesión</string>
+    <string name="app_logup1">No tienes una cuenta?</string>
+    <string name="app_logup2">Crea una aquí</string>
+    <string name="app_logup_correo">Correo</string>
+    <string name="app_logup_nombre">Nombre</string>
+    <string name="app_logup_confirmarcontrasenia">Confirmar contraseña</string>
+    <string name="app_logup_crearcuenta">Confirmar cuenta</string>
+    <string name="app_toolbar_title_createacount">Crear cuenta</string>
+</resources>

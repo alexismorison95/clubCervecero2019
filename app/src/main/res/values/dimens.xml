@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingLinearLayout">30sp</dimen>
+    <dimen name="TextButtonLogin">20sp</dimen>
+    <dimen name="textInputLogin">20sp</dimen>
+    <dimen name="cardview_height">200dp</dimen>
+    <dimen name="cardview_corner_radius">6dp</dimen>
+    <dimen name="paddingVerticalCard">18dp</dimen>
+    <dimen name="textTimeCardView">15sp</dimen>
+    <dimen name="textNameCardView">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

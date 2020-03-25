@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CreateAccountActivity"
+    android:background="@color/colorFondo">
+
+    <include
+        layout="@layout/actionbar_toolbar">
+    </include>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorTextWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:hint="@string/app_logup_correo"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textSize="@dimen/textInputLogin" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorTextWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:hint="@string/app_logup_nombre"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textSize="@dimen/textInputLogin" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorTextWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputContraseniaNueva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:hint="@string/app_pass"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/textInputLogin" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorTextWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputcontraseniaConfirmacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:hint="@string/app_logup_confirmarcontrasenia"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/textInputLogin" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/crearCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:height="60dp"
+                android:textSize="@dimen/TextButtonLogin"
+                android:text="@string/app_logup_crearcuenta"
+                android:textColor="@color/colorTextWhite"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

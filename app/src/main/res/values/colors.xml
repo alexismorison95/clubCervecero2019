@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#D10000</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBotonRojo">#FF0000</color>
+    <color name="colorBackgroundTextCar">#A4292929</color>
+    <color name="colorBackgroundTransparente">#A4111111</color>
+    <color name="colorBottombar">#272727</color>
+    <color name="colorFondo">#181818</color>
+</resources>
